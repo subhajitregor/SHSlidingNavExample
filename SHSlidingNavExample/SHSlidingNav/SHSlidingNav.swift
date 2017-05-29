@@ -9,10 +9,14 @@
 import UIKit
 
 @objc enum SHSlidingNavDirection: Int {
-    case leftToRight = 0
+    case leftToRight
     case righToLeft
 }
 
+@objc enum SHSlidingNavHeightSubstraction: Int {
+    case fromTop
+    case fromBottom
+}
 
 class SHSlidingNav: UIViewController {
     
@@ -58,5 +62,18 @@ class SHSlidingNav: UIViewController {
     @objc func setWidthInRelationToScreen(percent: Float) {
         
     }
+    
+    @objc func setWidthFixed( width: Float) {
+        
+    }
+    
+    @objc func setHeighInRelationToScreen(percent: Float) {
+        
+    }
+    
+    @objc func setHeightFixed( height: Float) {
+        
+    }
+    
 
 }
