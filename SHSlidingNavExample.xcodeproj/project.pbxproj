@@ -14,6 +14,7 @@
 		9F5B3B3B1EDC04CA00782A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B3B391EDC04CA00782A63 /* LaunchScreen.storyboard */; };
 		9F5B3B461EDC04CB00782A63 /* SHSlidingNavExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B3B451EDC04CB00782A63 /* SHSlidingNavExampleTests.swift */; };
 		9F5B3B511EDC04CB00782A63 /* SHSlidingNavExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B3B501EDC04CB00782A63 /* SHSlidingNavExampleUITests.swift */; };
+		9F5B3B601EDC108A00782A63 /* SHSlidingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B3B5F1EDC108A00782A63 /* SHSlidingNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F5B3B4C1EDC04CB00782A63 /* SHSlidingNavExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHSlidingNavExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5B3B501EDC04CB00782A63 /* SHSlidingNavExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHSlidingNavExampleUITests.swift; sourceTree = "<group>"; };
 		9F5B3B521EDC04CB00782A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5B3B5F1EDC108A00782A63 /* SHSlidingNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSlidingNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9F5B3B2F1EDC04CA00782A63 /* SHSlidingNavExample */ = {
 			isa = PBXGroup;
 			children = (
+				9F5B3B5E1EDC105A00782A63 /* SHSlidingNav */,
 				9F5B3B301EDC04CA00782A63 /* AppDelegate.swift */,
 				9F5B3B321EDC04CA00782A63 /* ViewController.swift */,
 				9F5B3B341EDC04CA00782A63 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				9F5B3B521EDC04CB00782A63 /* Info.plist */,
 			);
 			path = SHSlidingNavExampleUITests;
+			sourceTree = "<group>";
+		};
+		9F5B3B5E1EDC105A00782A63 /* SHSlidingNav */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B3B5F1EDC108A00782A63 /* SHSlidingNav.swift */,
+			);
+			path = SHSlidingNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5B3B601EDC108A00782A63 /* SHSlidingNav.swift in Sources */,
 				9F5B3B331EDC04CA00782A63 /* ViewController.swift in Sources */,
 				9F5B3B311EDC04CA00782A63 /* AppDelegate.swift in Sources */,
 			);
